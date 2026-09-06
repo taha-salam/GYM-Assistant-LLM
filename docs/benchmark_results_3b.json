@@ -1,0 +1,86 @@
+{
+  "short": {
+    "avg_time_to_first_token_sec": 4.71,
+    "avg_total_time_sec": 13.47,
+    "avg_tokens_per_sec": 5.74,
+    "individual_runs": [
+      {
+        "total_time_sec": 18.45,
+        "time_to_first_token_sec": 9.37,
+        "token_count": 70,
+        "tokens_per_sec": 3.79,
+        "response_preview": "I'm sorry, but I don't have any information about a specific gym's opening hours as I don't have acc..."
+      },
+      {
+        "total_time_sec": 12.12,
+        "time_to_first_token_sec": 2.46,
+        "token_count": 73,
+        "tokens_per_sec": 6.02,
+        "response_preview": "I'm sorry, but I don't have any information about specific gym opening hours as I am a large languag..."
+      },
+      {
+        "total_time_sec": 9.85,
+        "time_to_first_token_sec": 2.3,
+        "token_count": 73,
+        "tokens_per_sec": 7.41,
+        "response_preview": "I'm sorry for the confusion, but as Qwen, I don't own a physical gym or have specific opening hours...."
+      }
+    ]
+  },
+  "medium": {
+    "avg_time_to_first_token_sec": 3.19,
+    "avg_total_time_sec": 89.48,
+    "avg_tokens_per_sec": 7.37,
+    "individual_runs": [
+      {
+        "total_time_sec": 72.97,
+        "time_to_first_token_sec": 4.27,
+        "token_count": 477,
+        "tokens_per_sec": 6.54,
+        "response_preview": "Certainly! Booking a fitness class for tomorrow evening involves finding the class that suits your p..."
+      },
+      {
+        "total_time_sec": 102.22,
+        "time_to_first_token_sec": 2.85,
+        "token_count": 717,
+        "tokens_per_sec": 7.01,
+        "response_preview": "Sure, I can help guide you through the process of booking a fitness class for tomorrow evening. Howe..."
+      },
+      {
+        "total_time_sec": 93.25,
+        "time_to_first_token_sec": 2.46,
+        "token_count": 799,
+        "tokens_per_sec": 8.57,
+        "response_preview": "Certainly! I can help you navigate the process of booking a fitness class for tomorrow evening. Howe..."
+      }
+    ]
+  },
+  "long": {
+    "avg_time_to_first_token_sec": 3.42,
+    "avg_total_time_sec": 114.62,
+    "avg_tokens_per_sec": 8.45,
+    "individual_runs": [
+      {
+        "total_time_sec": 146.8,
+        "time_to_first_token_sec": 5.05,
+        "token_count": 1125,
+        "tokens_per_sec": 7.66,
+        "response_preview": "Certainly! I'll provide you with a detailed overview of the membership plans, features, and processe..."
+      },
+      {
+        "total_time_sec": 105.44,
+        "time_to_first_token_sec": 2.67,
+        "token_count": 919,
+        "tokens_per_sec": 8.72,
+        "response_preview": "Certainly! I'll provide you with a comprehensive overview of the membership plans at my gym, includi..."
+      },
+      {
+        "total_time_sec": 91.62,
+        "time_to_first_token_sec": 2.53,
+        "token_count": 821,
+        "tokens_per_sec": 8.96,
+        "response_preview": "Certainly! I'll walk you through the details of the membership plans at my gym, including the pricin..."
+      }
+    ]
+  }
+}

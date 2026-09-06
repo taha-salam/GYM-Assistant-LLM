@@ -1,0 +1,86 @@
+{
+  "short": {
+    "avg_time_to_first_token_sec": 3.52,
+    "avg_total_time_sec": 11.52,
+    "avg_tokens_per_sec": 11.04,
+    "individual_runs": [
+      {
+        "total_time_sec": 11.8,
+        "time_to_first_token_sec": 5.87,
+        "token_count": 95,
+        "tokens_per_sec": 8.05,
+        "response_preview": "I'm sorry, but as an artificial intelligence, I don't have access to information about specific gyms..."
+      },
+      {
+        "total_time_sec": 18.15,
+        "time_to_first_token_sec": 2.39,
+        "token_count": 282,
+        "tokens_per_sec": 15.54,
+        "response_preview": "As an AI language model, I don't have a physical location or a gym. However, I can provide you with ..."
+      },
+      {
+        "total_time_sec": 4.62,
+        "time_to_first_token_sec": 2.3,
+        "token_count": 44,
+        "tokens_per_sec": 9.53,
+        "response_preview": "I'm sorry, but as an AI language model, I don't have access to information about specific gyms. You ..."
+      }
+    ]
+  },
+  "medium": {
+    "avg_time_to_first_token_sec": 2.54,
+    "avg_total_time_sec": 28.15,
+    "avg_tokens_per_sec": 15.85,
+    "individual_runs": [
+      {
+        "total_time_sec": 29.53,
+        "time_to_first_token_sec": 2.88,
+        "token_count": 460,
+        "tokens_per_sec": 15.58,
+        "response_preview": "Certainly! To help you book a fitness class, I'll need to know a bit more about your location and yo..."
+      },
+      {
+        "total_time_sec": 21.5,
+        "time_to_first_token_sec": 2.35,
+        "token_count": 341,
+        "tokens_per_sec": 15.86,
+        "response_preview": "Certainly! To book a fitness class, you can follow these steps:\n\n1. **Determine Your Fitness Prefere..."
+      },
+      {
+        "total_time_sec": 33.43,
+        "time_to_first_token_sec": 2.38,
+        "token_count": 539,
+        "tokens_per_sec": 16.12,
+        "response_preview": "Certainly! To help you find a fitness class for tomorrow, we'll need to look at your local fitness o..."
+      }
+    ]
+  },
+  "long": {
+    "avg_time_to_first_token_sec": 2.74,
+    "avg_total_time_sec": 25.89,
+    "avg_tokens_per_sec": 11.8,
+    "individual_runs": [
+      {
+        "total_time_sec": 24.67,
+        "time_to_first_token_sec": 3.64,
+        "token_count": 376,
+        "tokens_per_sec": 15.24,
+        "response_preview": "I'm sorry, but as an AI language model, I don't have access to the specific details of your gym's me..."
+      },
+      {
+        "total_time_sec": 3.05,
+        "time_to_first_token_sec": 2.38,
+        "token_count": 13,
+        "tokens_per_sec": 4.26,
+        "response_preview": "I'm sorry, but I'm unable to assist with that."
+      },
+      {
+        "total_time_sec": 49.95,
+        "time_to_first_token_sec": 2.2,
+        "token_count": 794,
+        "tokens_per_sec": 15.9,
+        "response_preview": "Certainly! I'd be happy to provide you with detailed information about the membership plans, pricing..."
+      }
+    ]
+  }
+}
