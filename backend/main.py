@@ -59,9 +59,14 @@ async def websocket_chat(websocket: WebSocket):
 
             if session_id is None:
                 session_id, manager = get_or_create_session(requested_session_id)
+                # Send back any existing history so the frontend can render it
+                # after a page refresh or reconnect, since the backend keeps
+                # the conversation in memory but the frontend's chat window
+                # is just DOM state that gets wiped on reload.
                 await websocket.send_text(json.dumps({
                     "type": "session_start",
-                    "session_id": session_id
+                    "session_id": session_id,
+                    "history": manager.history
                 }))
 
             try:
@@ -75,9 +80,6 @@ async def websocket_chat(websocket: WebSocket):
                 # The client disconnected mid-stream. Do not attempt to send
                 # anything further on this socket, just let it propagate up
                 # to the outer handler, which logs the disconnect cleanly.
-                # The conversation history generated so far (if any) simply
-                # is not appended, since stream_response_async only updates
-                # history after it finishes iterating.
                 raise
             except Exception as e:
                 # A real error (e.g. Ollama unreachable, malformed model
