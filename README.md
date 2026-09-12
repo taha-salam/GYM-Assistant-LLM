@@ -1,4 +1,4 @@
-# FitBot — Gym / Fitness Membership Assistant
+# FitBot - Gym / Fitness Membership Assistant
 
 A conversational AI assistant for a fitness gym, running entirely on local CPU inference with real-time streaming over WebSocket. Built for Assignment 1 (Part 1 of a 3-part series).
 
