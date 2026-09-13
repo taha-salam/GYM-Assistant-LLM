@@ -61,7 +61,7 @@ The backend server must be running in a separate terminal for these to work.
 
 ## 2. Architecture Diagram
 
-*(Diagram to be inserted here.)*
+![Architecture Diagram](docs/images/architecture-diagram.png)
 
 Component summary for reference while building the diagram:
 - **Frontend** (`frontend/index.html`) — connects over WebSocket to `ws://localhost:8000/ws/chat`, sends JSON messages, renders streamed tokens and restored session history.
