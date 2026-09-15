@@ -1,6 +1,6 @@
 # FitBot - Gym / Fitness Membership Assistant
 
-A conversational AI assistant for a fitness gym, running entirely on local CPU inference with real-time streaming over WebSocket. Built for Assignment 1 (Part 1 of a 3-part series).
+A conversational AI assistant for a fitness gym, running entirely on local CPU inference with real-time streaming over WebSocket.
 
 ## 1. Setup Instructions
 
@@ -14,7 +14,7 @@ A conversational AI assistant for a fitness gym, running entirely on local CPU i
 1. **Clone the repository**
    ```
    git clone https://github.com/taha-salam/GYM-Assistant-LLM
-   cd gym-assistant-llm
+   cd GYM-Assistant-LLM
    ```
 
 2. **Pull the local model**
